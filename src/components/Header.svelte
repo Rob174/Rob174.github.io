@@ -2,12 +2,12 @@
   import IconLinks from "./IconLinks.svelte";
   import SectionsTitlesSummary from "./SectionsTitlesSummary.svelte";
   let externalLinks = [
-    { icon: "src/assets/github.svg", url: "https://rob174.github.io/" },
+    { icon: "/images/github.svg", url: "https://rob174.github.io/" },
     {
-      icon: "src/assets/linkedin.svg",
+      icon: "/images/linkedin.svg",
       url: "https://www.linkedin.com/in/robin-moine-a00b71199/",
     },
-    { icon: "src/assets/mail.svg", url: "mailto:robin.moine456@gmail.com" },
+    { icon: "/images/mail.svg", url: "mailto:robin.moine456@gmail.com" },
   ];
   let sections = [
     { id: "about", text: "About" },
